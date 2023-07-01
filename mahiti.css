@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+html,body{
+    height:100%;
+    border: 0%;
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+}
+.top{
+    display: flex;
+    background-color:aqua ;
+    justify-content: space-between;
+    padding: 10px;
+}
+.ekde a{
+    color: black;
+    padding: 20px;
+    text-decoration: none;
+    font-size: larger;
+    gap: 5px;
+}
+.fd{
+    color: brown;
+    font-size: 50px;
+    position:relative;
+    font-weight: bold;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: 0.15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */ /* Adjust as needed */
+    animation: typing 5s steps(40,end), blink-caret 0.75s step-end;
+  }
+.info img {
+    border-radius: 50px;
+    height:350px;
+    box-shadow: 3px 5px 5px;
+}
+.info{
+    background-color:skyblue;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 30px;
+    border-bottom: solid blue 6px;
+
+}
+.intro{
+    text-align: center;
+}
+.hi_text{
+    color: yellow;
+    font-size:80px;
+}
+.i_am{
+    font-size: 80px;
+    font-weight: bold;
+}
+.grid{
+    padding: 5px;
+    position: relative;
+    bottom:20px;
+    right: 15px;
+    display: grid;
+    gap: 10px;
+    grid-template-areas:
+    "I1 I2 I3"
+    "I4 I5 I6"
+    "I7 I8 I9";
+}
+.pro{
+    background-color:darkblue;
+    justify-content: center;
+}
+.pro h1{
+    text-align: center;
+    color: blueviolet;
+    text-decoration: solid;
+}
+.grid img{
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+}
+.img1{
+    grid-area: I1;
+}
+.img2{
+    grid-area: I2;
+}
+.img3{
+    grid-area: I3;
+}
+.img4{
+    grid-area: I4;
+}
+.img5{
+    grid-area: I5;
+}
+.img6{
+    grid-area: I6;
+}
+.img7{
+    grid-area: I7;
+}
+.img8{
+    grid-area: I8;
+}
+.img9{
+    grid-area: I9;
+}
+.img1:hover{
+    transform: scale(1.02);
+}
+.img2:hover{
+    transform: scale(1.02);
+}
+.img3:hover{
+    transform: scale(1.02);
+}
+.img4:hover{
+    transform: scale(1.02);
+}
+.img5:hover{
+    transform: scale(1.02);
+}
+.img6:hover{
+    transform: scale(1.02);
+}
+.img7:hover{
+    transform: scale(1.02);
+}
+.img8:hover{
+    transform: scale(1.02);
+}
+.img9:hover{
+    transform: scale(1.02);
+}
+.lets{
+    text-align: center;
+    background-color:lightblue ;
+}
+i{
+    font-size:50px;
+}
+.part1 i{
+    padding: 20px;
+    
+}
+@keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width:100%;
+    }
+  }
+  @keyframes blink-caret {
+    from,
+    to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: orange;
+    }
+  }
+  
